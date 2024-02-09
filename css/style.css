@@ -1,24 +1,124 @@
 
-.container-fluid{
-  background-color: rgba(255, 0, 0, .3);
+.fixed-top{
+  background-color: #2c3e50 !important;
   height: 80px;
 }
 
 .col{
   border: 1px solid black;
-  height: 80px;
-
+  /* height: 80px; */
+  
 }
 
 .container{
-  background-color: rgba(0, 0, 250, .2);
+  /* background-color: rgba(0, 0, 250, .2); */
   border: 1px solid black;
 }
 
-.jumbotron{
-  height: 300px;
+.bc-green{
+  background-color: rgb(26, 188, 156);
 }
+
+/* jumbotron */
+.jumbotron{
+  margin-top: 80px;
+  color: white;
+  padding: 70px 0;
+}
+.avatar-image {
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.bc-green .jumbotron h1{
+  font-size: 3rem;
+}
+.line-star{
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  height: 1px;
+  width: 10%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.star{
+  margin: 0 10px;
+  font-size: 2rem;
+}
+.bc-green .jumbotron p{
+  font-size: 1.5rem;
+}
+
+/* portfolio */
+
+.portfolio{
+  padding: 80px 0;
+}
+.portfolio .line-star{
+  color: rgb(44, 62, 80);
+  margin: 15px 0;
+}
+.portfolio .line{
+  border: 3px solid rgb(44, 62, 80);
+}
+
+.portfolio .row .col img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-position{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.plus{
+  position: absolute;
+  font-size: 4rem;
+  color: white;
+  display: none;
+
+}
+.img-position:hover {
+  filter: invert(.2);
+}
+.img-position:hover .plus{
+  display: inline-block;
+
+}
+
+
+
+
 
 .container-footer{
   background-color: rgba(0, 250, 0, .3);
+}
+
+.my-focus input,
+.my-focus textarea{
+  border-top: none;
+  border-right: none;
+  border-right: none;
+  border-radius: 0;
+
+}
+.my-focus input:focus,
+.my-focus textarea:focus{
+  box-shadow: none;
+
+}
+.my-focus button{
+  background-color: rgb(26, 188, 156);
+  border: none;
+}
+
+
+/* media query */
+@media screen and (max-width: 540px) {
+
 }
