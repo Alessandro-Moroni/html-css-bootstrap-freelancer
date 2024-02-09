@@ -5,9 +5,7 @@
 }
 
 .col{
-  border: 1px solid black;
-  /* height: 80px; */
-  
+  border: 1px solid black;  
 }
 
 .container{
@@ -17,12 +15,21 @@
 
 .bc-green{
   background-color: rgb(26, 188, 156);
+  color: white;
+}
+
+/* black star */
+.black{
+  color: rgb(44, 62, 80);
+  margin: 15px 0;
+}
+.black .line{
+  border: 3px solid rgb(44, 62, 80);
 }
 
 /* jumbotron */
 .jumbotron{
   margin-top: 80px;
-  color: white;
   padding: 70px 0;
 }
 .avatar-image {
@@ -33,7 +40,7 @@
   margin-bottom: 10px;
 }
 .bc-green .jumbotron h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .line-star{
   justify-content: center;
@@ -49,22 +56,14 @@
   margin: 0 10px;
   font-size: 2rem;
 }
-.bc-green .jumbotron p{
-  font-size: 1.5rem;
-}
+
 
 /* portfolio */
 
 .portfolio{
   padding: 80px 0;
 }
-.portfolio .line-star{
-  color: rgb(44, 62, 80);
-  margin: 15px 0;
-}
-.portfolio .line{
-  border: 3px solid rgb(44, 62, 80);
-}
+
 
 .portfolio .row .col img{
   width: 100%;
@@ -91,9 +90,22 @@
 
 }
 
+/* about */
+.container-60{
+  width: 60% !important;
+  padding: 80px 0;
+}
+.container-60 button{
+  background-color: rgb(26, 188, 156);
+  border: 1px solid white;
+}
 
 
 
+/* contact me */
+.container-60 .my-focus .button-start{
+  justify-content: flex-start;
+}
 
 .container-footer{
   background-color: rgba(0, 250, 0, .3);
@@ -103,7 +115,7 @@
 .my-focus textarea{
   border-top: none;
   border-right: none;
-  border-right: none;
+  border-left: none;
   border-radius: 0;
 
 }
